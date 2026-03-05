@@ -75,7 +75,7 @@ function Intro() {
                                 <span class="project-title2">BRWGo</span>
                                 <span class="description"> — Individual Full-Stack Web Project with HTML, CSS, JavaScript and PHP</span>
                             </div>
-                            <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
+                            <a href="https://github.com/AricChong12/WebAppProject" class="code-link">SOURCE</a>
                         </li>
 
 
