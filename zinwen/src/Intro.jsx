@@ -21,7 +21,7 @@ function Intro() {
                 running and organizing tech events in university tech clubs
                 such as Developer Student Club. I actively broaden my knowledge
                 about all sub-domains of computer
-                science whenever i am free. I study Bachelor of Computer
+                science whenever I am free. I study Bachelor of Computer
                 Science (Computer Networking) at Universiti Teknikal Malaysia
                 Melaka, UTeM.
 
