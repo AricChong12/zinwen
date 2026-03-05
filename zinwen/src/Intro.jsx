@@ -85,7 +85,7 @@ function Intro() {
                                 <span class="project-title2">React Porfolio (This)</span>
                                 <span class="description">— Portfolio Website with React JavaScript</span>
                             </div>
-                            <a href="#" class="code-link">SOURCE</a>
+                            {/*<a href="#" class="code-link">SOURCE</a>*/}
                         </li>
                     </ul>
 
