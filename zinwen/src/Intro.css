@@ -1,0 +1,190 @@
+.name {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    max-width: 630px;
+    margin: 30px auto 0 auto;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.job {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    max-width: 630px;
+    margin: 20px auto 20px auto;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.intro {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    max-width: 630px;
+    margin: auto;
+    line-height: 1.6;
+    word-wrap: break-word;
+
+}
+
+.hire {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    max-width: 630px;
+    margin: 20px auto 20px auto;
+    line-height: 1.6;
+    word-wrap: break-word;
+
+}
+
+.email {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+    max-width: 630px;
+    margin: 20px auto 20px auto;
+    line-height: 1.6;
+    word-wrap: break-word;
+}
+
+.container {
+    max-width: 630px;
+    margin: 20px auto 20px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.links {
+    color: #00FF00;
+    font-size: 15px;
+    margin-top: 5px;
+
+}
+
+.projects {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    max-width: 630px;
+    margin: 50px auto -10px auto;
+
+    word-wrap: break-word;
+}
+
+.projects-container {
+    max-width: 630px;
+    margin: 0 auto 0 auto;
+
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    */
+
+
+    color: white;
+}
+
+
+.domains {
+    text-align: justify;
+    color: #00FF00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+
+}
+
+
+
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.project-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-list li {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes content to opposite ends */
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.project-title {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.description {
+    color: #999;
+    margin-left: 8px;
+}
+
+.code-link {
+    color: white;
+    text-decoration: underline;
+    font-size: 0.9rem;
+}
+
+
+
+.exp {
+    text-align: justify;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+    max-width: 630px;
+    margin: 30px auto 0 auto;
+
+    word-wrap: break-word;
+}
+
+.project-title2 {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.code-link2 {
+    color: white;
+
+    font-size: 0.9rem;
+}
