@@ -195,7 +195,7 @@ function Intro() {
                                 <span class="project-title2">Technical Team</span>
                                 <span class="description">— Developer Student Club, DSC UTeM</span>
                             </div>
-                            <span class="code-link2">Nov 2025 - Present</span>
+
 
 
                         </li>
@@ -207,7 +207,7 @@ function Intro() {
                                 <span class="project-title2">Game Programmer</span>
                                 <span class="description">— TMAC UTeM </span>
                             </div>
-                            <span class="code-link2">Nov 2024 - Present</span>
+
 
 
                         </li>
@@ -222,7 +222,7 @@ function Intro() {
                                 <span class="project-title2">Deputy General Affairs</span>
                                 <span class="description">— Diabolo Club UTeM</span>
                             </div>
-                            <span class="code-link2">Nov 2024 - Present</span>
+
 
 
                         </li>
@@ -242,10 +242,10 @@ function Intro() {
                         <li>
 
                             <div class="project-info">
-                                <span class="project-title2">Robomaster</span>
-                                <span class="description">— Team Champion with arduino ESP32 microcontroller</span>
+                                <span class="project-title2">Robomaster 2025 Team Champion</span>
+
                             </div>
-                            <span class="code-link2">Dec 2025</span>
+
 
 
                         </li>
