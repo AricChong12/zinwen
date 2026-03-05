@@ -35,12 +35,12 @@ function Intro() {
                 </a>
                 <FaLinkedin size={25} color="#00FF00" />
                 <a href="https://www.linkedin.com/in/zin-w-38323b238/" className="links">
-                    Linkedin
+                    LinkedIn
                 </a>
             </div>
 
 
-            <p className="hire">If you are hiring, reach out via Linkedin or email.</p>
+            <p className="hire">If you are hiring, reach out via LinkedIn or Email.</p>
 
             <p className="email">Email: zinwen12@gmail.com</p>
 
@@ -56,7 +56,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BMS</span>
-                                <span class="description">— Individual Console App Project with C++ and MySQL</span>
+                                <span class="description"> — Individual Console App Project with C++ and MySQL</span>
                             </div>
                             <a href="https://github.com/AricChong12/Workshop-1" class="code-link">SOURCE</a>
                         </li>
@@ -64,7 +64,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">HMS</span>
-                                <span class="description">— Team Desktop App Project with MVC architecture with API in Java</span>
+                                <span class="description"> — Team Desktop App Project with MVC architecture with API in Java</span>
                             </div>
                             <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
                         </li>
@@ -73,7 +73,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BRWGo</span>
-                                <span class="description">— Individual Full-Stack Web Project with HTML, CSS, JavaScript and PHP</span>
+                                <span class="description"> — Individual Full-Stack Web Project with HTML, CSS, JavaScript and PHP</span>
                             </div>
                             <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
                         </li>
@@ -83,7 +83,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">React Porfolio (This)</span>
-                                <span class="description">— Portfolio Website with React JavaScript</span>
+                                <span class="description"> — Portfolio Website with React JavaScript</span>
                             </div>
                             <a href="https://github.com/AricChong12/zinwen" class="code-link">SOURCE</a>
                         </li>
@@ -95,7 +95,7 @@ function Intro() {
                 </div>
 
 
-                <p className="domains">Networking</p>
+                <p className="domains">Computer Networking</p>
 
 
                 <div className="container2">
@@ -105,7 +105,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">DataComm</span>
-                                <span class="description">— Team Data Communications and Networking Project</span>
+                                <span class="description"> — Team Data Communications and Networking Project</span>
                             </div>
                             <a href="https://github.com/AricChong12/DataCommProject" class="code-link">SOURCE</a>
                         </li>
@@ -113,7 +113,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">LAN</span>
-                                <span class="description">— Team Local Area Network Project with networking and server setup</span>
+                                <span class="description"> — Team Local Area Network Project with networking and server setup</span>
                             </div>
                             <a href="https://github.com/AricChong12/LAN-Project" class="code-link">SOURCE</a>
                         </li>
@@ -138,7 +138,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">Data Analysis</span>
-                                <span class="description">— Team Statistics & Probability Project with R</span>
+                                <span class="description"> — Team Statistics & Probability Project with R</span>
                             </div>
                             <a href="https://github.com/AricChong12/Statistics-and-Probability" class="code-link">SOURCE</a>
                         </li>
@@ -159,7 +159,7 @@ function Intro() {
 
                 <h2 className="exp">Professional Experience</h2>
 
-                <div className="container2">
+                <div className="container3">
 
 
                     <ul class="project-list">
@@ -185,7 +185,7 @@ function Intro() {
 
                 <h2 className="exp">Life Experience</h2>
 
-                <div className="container2">
+                <div className="container3">
 
 
                     <ul class="project-list">
@@ -193,7 +193,7 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Technical Team</span>
-                                <span class="description">— Developer Student Club, DSC UTeM</span>
+                                <span class="description"> — Developer Student Club, DSC UTeM</span>
                             </div>
 
 
@@ -205,7 +205,7 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Game Programmer</span>
-                                <span class="description">— TMAC UTeM </span>
+                                <span class="description"> — TMAC UTeM </span>
                             </div>
 
 
@@ -220,7 +220,7 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Deputy General Affairs</span>
-                                <span class="description">— Diabolo Club UTeM</span>
+                                <span class="description"> — Diabolo Club UTeM</span>
                             </div>
 
 
@@ -235,7 +235,7 @@ function Intro() {
 
                 <h2 className="exp">Competitions</h2>
 
-                <div className="container2">
+                <div className="container3">
 
 
                     <ul class="project-list">

@@ -13,7 +13,7 @@ function Matrix() {
         canvas.style.background = 'black';
         const ctx = canvas.getContext('2d');
 
-        let fontSize = 25;
+        let fontSize = 18;
         let letters = '101000111110101010100110101101010101010'.split('');
         let columns, drops;
 
@@ -36,7 +36,7 @@ function Matrix() {
             for (let i = 0; i < drops.length; i++) {
                 const text = letters[Math.floor(Math.random() * letters.length)];
                 //ctx.fillStyle = '#00FFFF';
-                ctx.fillStyle = 'rgba(0, 255, 0, 0.2)';
+                ctx.fillStyle = 'rgba(0, 255, 0, 0.3)';
                 ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
                 drops[i]++;
