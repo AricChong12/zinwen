@@ -36,7 +36,7 @@ function Matrix() {
             for (let i = 0; i < drops.length; i++) {
                 const text = letters[Math.floor(Math.random() * letters.length)];
                 //ctx.fillStyle = '#00FFFF';
-                ctx.fillStyle = 'rgba(0, 255, 0, 0.3)';
+                ctx.fillStyle = 'rgba(0, 255, 0, 0.5)';
                 ctx.fillText(text, i * fontSize, drops[i] * fontSize);
 
                 drops[i]++;
