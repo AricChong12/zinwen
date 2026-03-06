@@ -105,6 +105,23 @@ function Matrix() {
             canvas.height = window.innerHeight;
         });
 
+        //mobile test
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+
+            const columns = Math.floor(canvas.width / fontSize);
+
+            drops.length = 0;
+            for (let i = 0; i < columns; i++) {
+                drops[i] = 1;
+            }
+        }
+
+        window.addEventListener("resize", resizeCanvas);
+        window.addEventListener("orientationchange", resizeCanvas);
+
+        resizeCanvas();
 
 
 
