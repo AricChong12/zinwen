@@ -2,6 +2,10 @@ import './Intro.css';
 
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { SiWix } from "react-icons/si";
+
+import { SiLinktree } from "react-icons/si";
+
 
 
 function Intro() {
@@ -27,24 +31,58 @@ function Intro() {
 
             </p>
 
-
             <div className="container">
-                <FaGithub size={25} color="#00ff00" />
-                <a href="https://github.com/AricChong12" className="links">
-                    GitHub
-                </a>
-                <FaLinkedin size={25} color="#00FF00" />
-                <a href="https://www.linkedin.com/in/zin-w-38323b238/" className="links">
-                    LinkedIn
-                </a>
+                <p className="links2">Languages : English, Malay, Chinese, Japanese, German</p>
+
+
+
             </div>
+
+
+
+            <div className="container-icon">
+
+                <div className="items">
+                    <FaGithub size={25} color="#00ff00" />
+                    <a href="https://github.com/AricChong12" className="links">
+                        GitHub
+                    </a>
+                </div>
+
+
+                <div className="items">
+                    <FaLinkedin size={25} color="#00FF00" />
+                    <a href="https://www.linkedin.com/in/zin-w-38323b238/" className="links">
+                        LinkedIn
+                    </a>
+                </div>
+
+
+                <div className="items">
+                    <SiWix size={30} color="#00FF00" />
+                    <a href="https://12aaronchong.wixsite.com/zinwen" className="links">
+                        Portfolio
+                    </a>
+                </div>
+
+
+                <div className="items">
+                    <SiLinktree size={20} color="#00FF00" />
+                    <a href="https://linktr.ee/zinwen" className="links">
+                        Linktree
+                    </a>
+                </div>
+
+            </div>
+
+
 
 
             <p className="hire">If you are hiring, reach out via LinkedIn or Email.</p>
 
             <p className="email">Email: zinwen12@gmail.com</p>
 
-            <h2 className="projects">Projects</h2>
+            <h2 className="projects">Notable Projects</h2>
             <div className="projects-container">
                 <p className="domains">Software Engineering</p>
 
@@ -56,7 +94,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BMS</span>
-                                <span class="description"> — Individual Console App Project with C++ and MySQL</span>
+                                <span class="description"> — Bookshop Management System Console App with C++ and MySQL</span>
                             </div>
                             <a href="https://github.com/AricChong12/Workshop-1" class="code-link">SOURCE</a>
                         </li>
@@ -64,7 +102,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">HMS</span>
-                                <span class="description"> — Team Desktop App Project with MVC architecture with API in Java</span>
+                                <span class="description"> — Hotel Management System Desktop App with MVC architecture with Printing API in Java</span>
                             </div>
                             <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
                         </li>
@@ -73,7 +111,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BRWGo</span>
-                                <span class="description"> — Individual Full-Stack Web Project with HTML, CSS, JavaScript and PHP</span>
+                                <span class="description"> — Full-Stack Business Registration Website with HTML, CSS, JavaScript and PHP</span>
                             </div>
                             <a href="https://github.com/AricChong12/WebAppProject" class="code-link">SOURCE</a>
                         </li>
@@ -83,7 +121,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">React Porfolio (This)</span>
-                                <span class="description"> — Portfolio Website with React JavaScript</span>
+                                <span class="description"> — My Portfolio Website, coded with React, suitable for web and mobile views</span>
                             </div>
                             <a href="https://github.com/AricChong12/zinwen" class="code-link">SOURCE</a>
                         </li>
@@ -105,7 +143,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">DataComm</span>
-                                <span class="description"> — Team Data Communications and Networking Project</span>
+                                <span class="description"> — A beginner networking project that introduces me to networking domain</span>
                             </div>
                             <a href="https://github.com/AricChong12/DataCommProject" class="code-link">SOURCE</a>
                         </li>
@@ -113,7 +151,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">LAN</span>
-                                <span class="description"> — Team Local Area Network Project with networking and server setup</span>
+                                <span class="description"> — A Local Area Network Project with networking configurations and servers setup through debian </span>
                             </div>
                             <a href="https://github.com/AricChong12/LAN-Project" class="code-link">SOURCE</a>
                         </li>
@@ -138,7 +176,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">Data Analysis</span>
-                                <span class="description"> — Team Statistics & Probability Project with R</span>
+                                <span class="description"> — A mathematical project that need me and my team to analyze real-world data with R</span>
                             </div>
                             <a href="https://github.com/AricChong12/Statistics-and-Probability" class="code-link">SOURCE</a>
                         </li>
