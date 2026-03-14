@@ -6,6 +6,9 @@ import { SiWix } from "react-icons/si";
 
 import { SiLinktree } from "react-icons/si";
 
+import { SiGoogle } from "react-icons/si";
+
+
 
 
 function Intro() {
@@ -70,6 +73,14 @@ function Intro() {
                     <SiLinktree size={20} color="#00FF00" />
                     <a href="https://linktr.ee/zinwen" className="links">
                         Linktree
+                    </a>
+                </div>
+
+
+                <div className="items">
+                    <SiGoogle size={18} color="#00FF00" />
+                    <a href="https://developers.google.com/profile/u/zinwen" className="links">
+                        Google Developer Profile
                     </a>
                 </div>
 
