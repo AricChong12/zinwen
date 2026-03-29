@@ -24,6 +24,7 @@
     word-wrap: break-word;
 
     padding: 0 15px 0 15px;
+    font-weight: bold;
 }
 
 .intro {
@@ -38,6 +39,7 @@
     word-wrap: break-word;
 
     padding: 0 15px 0 15px;
+    font-weight: bold;
 
 }
 
@@ -54,6 +56,8 @@
 
     padding: 0 15px 0 15px;
 
+    font-weight: bold;
+
 }
 
 .email {
@@ -68,6 +72,7 @@
     word-wrap: break-word;
 
     padding: 0 15px 0 15px;
+    font-weight: bold;
 }
 
 .container {
@@ -91,6 +96,8 @@
     font-family: Arial, Helvetica, sans-serif;
 
     white-space: nowrap;
+
+    font-weight: bold;
 }
 
 
@@ -101,6 +108,7 @@
 
 
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 
 }
 
@@ -132,6 +140,8 @@
     color: white;
     padding: 0 15px 0 15px;
     font-family: Arial, Helvetica, sans-serif;
+
+    
 }
 
 
@@ -259,3 +269,49 @@
     margin-top: 15px;
     padding-right: 10%;
 }
+
+
+
+.subjects-sem{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    gap: 1%;
+}
+
+
+
+.subjects {
+    list-style: none;
+    padding: 0;
+}
+
+.subjects li {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes content to opposite ends */
+    align-items: baseline;
+    margin-bottom: 12px;
+}
+
+.subjects-title {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.format {
+    color: #00FF00;
+}
+
+.subjects-sem {
+    margin-top: -15px;
+}
+
+.format-each-sem {
+    /*margin: 0 15px 0 0;*/
+    width: 48%;
+    
+}
+

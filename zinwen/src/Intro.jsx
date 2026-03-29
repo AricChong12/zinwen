@@ -297,7 +297,99 @@ function Intro() {
                     </ul>
                 </div>
 
-                <h2 className="exp">Competitions</h2>
+
+                <h2 className="exp">University Subjects</h2>
+
+                <div className="container3">
+
+
+                    <ul class="subjects">
+                        <li>
+
+
+
+                            <div class="subjects-sem">
+
+
+                                <div class="format-each-sem">
+                                    <h4 class="format">SEM 1</h4>
+                                    <li class="subjects-title">Philosophy and Current Issues</li>
+                                    <li class="subjects-title">English for Academic Purposes</li>
+                                    <li class="subjects-title">Linear Algebra and Discrete Mathematics</li>
+                                    <li class="subjects-title">Multimedia Systems</li>
+                                    <li class="subjects-title">Programming Techniques</li>
+                                    <li class="subjects-title">Computer Organization and Architecture</li>
+
+                                </div>
+
+                                <br/>
+                                
+                                <div class="format-each-sem">
+                                    <h4 class="format">SEM 2</h4>
+                                    <li class="subjects-title">Calculus and Numerical Methods</li>
+                                    <li class="subjects-title">Human Computer Interaction</li>
+                                    <li class="subjects-title">Data Structure and Algorithms</li>
+                                    <li class="subjects-title">Database</li>
+                                    <li class="subjects-title">Data Communication and Networking</li>
+                                    <li class="subjects-title">Web Application Development</li>
+
+                                </div>
+                                
+                                <br/>
+
+                                <div class="format-each-sem">
+                                    <h4 class="format">SEM 3</h4>
+                                    <li class="subjects-title">Calculus and Numerical Methods</li>
+                                    <li class="subjects-title">Human Computer Interaction</li>
+                                    <li class="subjects-title">Data Structure and Algorithms</li>
+                                    <li class="subjects-title">Database</li>
+                                    <li class="subjects-title">Data Communication and Networking</li>
+                                    <li class="subjects-title">Web Application Development</li>
+
+
+                                </div>
+
+                                <br/>
+
+                                <div class="format-each-sem">
+                                    <h4 class="format">SEM 4</h4>
+                                    <li class="subjects-title">Arts</li>
+                                    <li class="subjects-title">Aritificial Intelligence</li>
+                                    <li class="subjects-title">Software Engineering</li>
+                                    <li class="subjects-title">Wide Area Network</li>
+                                    <li class="subjects-title">Network Analysis and Design</li>
+                                    <li class="subjects-title">German Language</li>
+                                    <li class="subjects-title">Fiber Optics</li>
+
+                                </div>
+                                
+
+
+
+
+
+                            </div>
+
+
+
+                        </li>
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+
+
+                <h2 className="exp">Hackathons</h2>
 
                 <div className="container3">
 
@@ -322,6 +414,9 @@ function Intro() {
 
                     </ul>
                 </div>
+
+
+
 
 
 
