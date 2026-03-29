@@ -22,17 +22,19 @@ function Intro() {
 
 
             <p className="intro">
-                I write codes and build networks. I also enjoy exploring new
-                technologies by joining tech events such as
-                Google Developer Groups on Campus. I do also volunteer in
-                running and organizing tech events in university tech clubs
-                such as Developer Student Club. I actively broaden my knowledge
-                about all sub-domains of computer
-                science whenever I am free. I study Bachelor of Computer
-                Science (Computer Networking) at Universiti Teknikal Malaysia
-                Melaka, UTeM.
+                I am a passionate and committed individual who designs and builds wired or wireless networks for work.
+                I am also a tech enthusiast who designs, codes and deploy softwares for hobby. Not only that, I also
+                enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
+                Computer Science just for fun. I do also participating, planning, managing and running tech events to
+                hone my soft skills and extra technical skills. Sometimes, I would sign myself up for tech gathering
+                events or tech hackathons, even business.
+                <div className="academics">
+                    Bachelor of Computer Science (Computer Networking) @ UTeM
+                </div>
 
             </p>
+
+
 
             <div className="container">
                 <p className="links2">Languages : English, Malay, Chinese, Japanese, German</p>
@@ -105,7 +107,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BMS</span>
-                                <span class="description"> — Bookshop Management System Console App with C++ and MySQL</span>
+                                <span class="description"> — Bookshop Management System Console App with C++ and MySQL (Individual)</span>
                             </div>
                             <a href="https://github.com/AricChong12/Workshop-1" class="code-link">SOURCE</a>
                         </li>
@@ -113,7 +115,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">HMS</span>
-                                <span class="description"> — Hotel Management System Desktop App with MVC architecture with Printing API in Java</span>
+                                <span class="description"> — Hotel Management System Desktop App with MVC architecture with Printing API in Java (Team)</span>
                             </div>
                             <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
                         </li>
@@ -122,7 +124,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BRWGo</span>
-                                <span class="description"> — Full-Stack Business Registration Website with HTML, CSS, JavaScript and PHP</span>
+                                <span class="description"> — Full-Stack Business Registration Website with HTML, CSS, JavaScript and PHP (Individual)</span>
                             </div>
                             <a href="https://github.com/AricChong12/WebAppProject" class="code-link">SOURCE</a>
                         </li>
@@ -132,7 +134,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">React Porfolio (This)</span>
-                                <span class="description"> — My Portfolio Website, coded with React, suitable for web and mobile views</span>
+                                <span class="description"> — My Portfolio Website, coded with React, suitable for web and mobile views (Individual)</span>
                             </div>
                             <a href="https://github.com/AricChong12/zinwen" class="code-link">SOURCE</a>
                         </li>
@@ -154,7 +156,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">DataComm</span>
-                                <span class="description"> — A beginner networking project that introduces me to networking domain</span>
+                                <span class="description"> — A beginner networking project that introduces me to networking domain (Team)</span>
                             </div>
                             <a href="https://github.com/AricChong12/DataCommProject" class="code-link">SOURCE</a>
                         </li>
@@ -162,7 +164,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">LAN</span>
-                                <span class="description"> — A Local Area Network Project with networking configurations and servers setup through debian </span>
+                                <span class="description"> — A Local Area Network Project with networking configurations and servers setup through Debian (Team)</span>
                             </div>
                             <a href="https://github.com/AricChong12/LAN-Project" class="code-link">SOURCE</a>
                         </li>
@@ -187,7 +189,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">Data Analysis</span>
-                                <span class="description"> — A mathematical project that need me and my team to analyze real-world data with R</span>
+                                <span class="description"> — A mathematical project that need me and my team to analyze real-world data with R (Team)</span>
                             </div>
                             <a href="https://github.com/AricChong12/Statistics-and-Probability" class="code-link">SOURCE</a>
                         </li>
@@ -270,6 +272,19 @@ function Intro() {
                             <div class="project-info">
                                 <span class="project-title2">Deputy General Affairs</span>
                                 <span class="description"> — Diabolo Club UTeM</span>
+                            </div>
+
+
+
+                        </li>
+
+
+
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">Language Student</span>
+                                <span class="description"> — AToJ Japanese N5N4</span>
                             </div>
 
 
