@@ -339,13 +339,13 @@ function Intro() {
 
                                 <div class="format-each-sem">
                                     <h4 class="format">SEM 3</h4>
-                                    <li class="subjects-title">Calculus and Numerical Methods</li>
-                                    <li class="subjects-title">Human Computer Interaction</li>
-                                    <li class="subjects-title">Data Structure and Algorithms</li>
-                                    <li class="subjects-title">Database</li>
-                                    <li class="subjects-title">Data Communication and Networking</li>
-                                    <li class="subjects-title">Web Application Development</li>
-
+                                    <li class="subjects-title">Academic Writing</li>
+                                    <li class="subjects-title">Local Area Network</li>
+                                    <li class="subjects-title">Object-Oriented Programming</li>
+                                    <li class="subjects-title">Operating System</li>
+                                    <li class="subjects-title">Ethnics and Civilizations</li>
+                                    <li class="subjects-title">Statistics and Probability</li>
+                                    <li class="subjects-title">Workshop I</li>
 
                                 </div>
 
