@@ -94,6 +94,9 @@ function Intro() {
             <p className="hire">If you are hiring, reach out via LinkedIn or Email.</p>
 
             <p className="email">Email: <a className="importants" href="mailto:zinwen12@gmail.com">zinwen12@gmail.com</a></p>
+            <p className="phone">Phone: <span className="importants">+6018-3952355</span></p>
+
+
 
             <h2 className="projects">Notable Projects</h2>
             <div className="projects-container">
