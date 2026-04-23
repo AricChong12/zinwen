@@ -75,6 +75,10 @@
     font-weight: bold;
 }
 
+.importants {
+    color:#00FF00;
+}
+
 .container {
     max-width: 630px;
     margin: 20px auto 20px auto;
@@ -115,7 +119,7 @@
 
 .projects {
     text-align: justify;
-    color: white;
+    color: #00FF00;
     font-family: Arial, Helvetica, sans-serif;
 
 
@@ -221,7 +225,7 @@
 
 .exp {
     text-align: justify;
-    color: white;
+    color: #00FF00;
     font-family: Arial, Helvetica, sans-serif;
 
 

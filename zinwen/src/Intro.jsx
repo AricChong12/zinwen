@@ -14,21 +14,21 @@ import { SiGoogle } from "react-icons/si";
 function Intro() {
     return (
         <>
-            <h2 className="name">Zin Wen</h2>
-            <p className="job">Network Engineer based in Negeri Sembilan,
-                Malaysia
+            <h2 className="name importants">Zin Wen</h2>
+            <p className="job"><span className="importants">Network Engineer</span> based in<span className="importants"> Negeri Sembilan,
+                Malaysia</span>
             </p>
 
 
 
             <p className="intro">
-                I am a passionate and committed individual who designs and builds wired or wireless networks for work.
-                I am also a tech enthusiast who designs, codes and deploy softwares for hobby. Not only that, I also
-                enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
-                Computer Science just for fun. I do also participating, planning, managing and running tech events to
-                hone my soft skills and extra technical skills. Sometimes, I would sign myself up for tech gathering
-                events or tech hackathons, even business.
-                <div className="academics">
+                I am a <span className="importants">passionate and committed</span> individual who <span className="importants">designs and builds wired or wireless networks for work</span>.
+                I am also a tech enthusiast who <span className="importants">designs, codes and deploy softwares for hobby</span>. Not only that, I 
+                also <span className="importants">enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
+                Computer Science</span> just for fun. I do also <span className="importants">participating, planning, managing and running tech events to
+                hone my soft skills and extra technical skills</span>. Sometimes, I would <span className="importants">sign myself up for tech gathering
+                events or tech hackathons, even business</span>.
+                <div className="academics importants">
                     Bachelor of Computer Science (Computer Networking) @ UTeM
                 </div>
 
@@ -38,7 +38,7 @@ function Intro() {
 
             <div className="container">
                 <p className="links2">Languages : English, Malay, Chinese, Japanese, German</p>
-
+                
 
 
             </div>
@@ -93,7 +93,7 @@ function Intro() {
 
             <p className="hire">If you are hiring, reach out via LinkedIn or Email.</p>
 
-            <p className="email">Email: zinwen12@gmail.com</p>
+            <p className="email">Email: <a className="importants" href="mailto:zinwen12@gmail.com">zinwen12@gmail.com</a></p>
 
             <h2 className="projects">Notable Projects</h2>
             <div className="projects-container">
