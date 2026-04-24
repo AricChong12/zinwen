@@ -14,6 +14,15 @@ import { SiGoogle } from "react-icons/si";
 function Intro() {
     return (
         <>
+            <img
+                src="/Me.png" // Direct link to your file
+                alt="zinwen"
+                style={{ width: '100px', height: '100px', objectFit: 'cover', border: '3px solid #00FF00'}}
+                className="rounded-pill personal_image"
+                id="about"
+            />
+
+
             <h2 className="name importants">Zin Wen</h2>
             <p className="job"><span className="importants">Network Engineer</span> based in<span className="importants"> Negeri Sembilan,
                 Malaysia</span>
@@ -98,7 +107,7 @@ function Intro() {
 
 
 
-            <h2 className="projects">Notable Projects</h2>
+            <h2 className="projects" id="project">Notable Projects</h2>
             <div className="projects-container">
                 <p className="domains">Software Engineering</p>
 
@@ -137,7 +146,7 @@ function Intro() {
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">React Porfolio (This)</span>
-                                <span class="description"> — My Portfolio Website, coded with React, suitable for web and mobile views (Individual)</span>
+                                <span class="description"> — My Portfolio Website, coded with React + Vite and applied Bootstrap CSS, suitable for web and mobile views (Individual)</span>
                             </div>
                             <a href="https://github.com/AricChong12/zinwen" class="code-link">SOURCE</a>
                         </li>
@@ -211,7 +220,7 @@ function Intro() {
 
 
 
-                <h2 className="exp">Professional Experience</h2>
+                <h2 className="exp" id="exp">Professional Experience</h2>
 
                 <div className="container3">
 
@@ -301,7 +310,7 @@ function Intro() {
                 </div>
 
 
-                <h2 className="exp">University Subjects</h2>
+                <h2 className="exp" id="academics">University Subjects</h2>
 
                 <div className="container3">
 
@@ -392,7 +401,7 @@ function Intro() {
 
 
 
-                <h2 className="exp">Hackathons</h2>
+                <h2 className="exp" id="hacks">Hackathons</h2>
 
                 <div className="container3">
 

@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import './Matrix.css';
 
 import Intro from './Intro.jsx';
+import Nav from './Nav.jsx';
 
 //updates here 
 function Matrix() {
@@ -136,6 +137,7 @@ function Matrix() {
             <canvas id="matrix"></canvas>
             <div className="content-overlay">
                 {/*inserts here */}
+                <Nav/>
                 <Intro />
             </div>
         </div>
