@@ -10,6 +10,8 @@
     word-wrap: break-word;
 
     padding: 0 15px 0 15px;
+
+    font-weight: bold;
 }
 
 .job {
@@ -25,13 +27,15 @@
 
     padding: 0 15px 0 15px;
     font-weight: bold;
+
+    font-size: 20px;
 }
 
 .intro {
     text-align: justify;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 
     max-width: 630px;
     margin: auto;
@@ -47,7 +51,7 @@
     text-align: justify;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 
     max-width: 630px;
     margin: 30px auto 5px auto;
@@ -64,7 +68,7 @@
     text-align: justify;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 
     max-width: 630px;
     margin: 0 auto 0 auto;
@@ -81,7 +85,7 @@
     text-align: justify;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 
     max-width: 630px;
     margin: 0 auto 20px auto;
@@ -93,7 +97,8 @@
 }
 
 .importants {
-    color:#00FF00;
+    /*color:#00FF00;*/
+    color: white;
 }
 
 .container {
@@ -110,8 +115,9 @@
 }
 
 .links {
-    color: #00FF00;
-    font-size: 15px;
+    /*color: #00FF00;*/
+    color: white;
+    font-size: 20px;
     margin-top: 5px;
 
     font-family: Arial, Helvetica, sans-serif;
@@ -125,7 +131,7 @@
 
 .links2 {
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 5px;
 
 
@@ -136,7 +142,8 @@
 
 .projects {
     text-align: justify;
-    color: #00FF00;
+    /*color: #00FF00;*/
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 
 
@@ -146,6 +153,7 @@
     word-wrap: break-word;
 
     padding: 0 15px 0 15px;
+    font-weight: bold;
 }
 
 .projects-container {
@@ -169,9 +177,10 @@
 
 .domains {
     text-align: justify;
-    color: #00FF00;
+    /*color: #00FF00;*/
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 
     font-weight: bold;
     margin-top: 15px;
@@ -223,6 +232,7 @@
     color: #fff;
     font-weight: bold;
     text-decoration: underline;
+    
 }
 
 .description {
@@ -230,21 +240,25 @@
     margin-left: 8px;
 
     margin: 0 15px 0 0;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .code-link {
     color: white;
     text-decoration: underline;
-    font-size: 0.9rem;
+    font-size: 1.25rem;
 
     margin: 0 0 0 15px;
+    font-weight: bold;
 }
 
 
 
 .exp {
     text-align: justify;
-    color: #00FF00;
+    /*color: #00FF00;*/
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 
 
@@ -252,18 +266,20 @@
     margin: 30px auto 0 auto;
 
     word-wrap: break-word;
+    font-weight: bold;
 }
 
 .project-title2 {
     color: #fff;
     font-weight: bold;
+    font-size: 20px;
 
 }
 
 .code-link2 {
     color: white;
 
-    font-size: 0.9rem;
+    font-size: 1.25rem;
 }
 
 .container-icon {
@@ -322,13 +338,16 @@
 .subjects-title {
     color: #fff;
     font-weight: bold;
+    font-size: 20px;
 
 }
 
 .format {
-    color: #00FF00;
+    /*color: #00FF00;*/
+    color: white;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: bold;
 }
 
 .subjects-sem {

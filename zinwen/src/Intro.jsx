@@ -17,7 +17,7 @@ function Intro() {
             <img
                 src="/Me.png" // Direct link to your file
                 alt="zinwen"
-                style={{ width: '100px', height: '100px', objectFit: 'cover', border: '3px solid #00FF00'}}
+                style={{ width: '100px', height: '100px', objectFit: 'cover', border: '3px solid white'}}
                 className="rounded-pill personal_image"
                 id="about"
             />
@@ -57,7 +57,7 @@ function Intro() {
             <div className="container-icon">
 
                 <div className="items">
-                    <FaGithub size={25} color="#00ff00" />
+                    <FaGithub size={25} color="white" />
                     <a href="https://github.com/AricChong12" className="links">
                         GitHub
                     </a>
@@ -65,7 +65,7 @@ function Intro() {
 
 
                 <div className="items">
-                    <FaLinkedin size={25} color="#00FF00" />
+                    <FaLinkedin size={25} color="white" />
                     <a href="https://www.linkedin.com/in/zin-w-38323b238/" className="links">
                         LinkedIn
                     </a>
@@ -73,7 +73,7 @@ function Intro() {
 
 
                 <div className="items">
-                    <SiWix size={30} color="#00FF00" />
+                    <SiWix size={30} color="white" />
                     <a href="https://12aaronchong.wixsite.com/zinwen" className="links">
                         Portfolio
                     </a>
@@ -81,7 +81,7 @@ function Intro() {
 
 
                 <div className="items">
-                    <SiLinktree size={20} color="#00FF00" />
+                    <SiLinktree size={20} color="white" />
                     <a href="https://linktr.ee/zinwen" className="links">
                         Linktree
                     </a>
@@ -89,9 +89,9 @@ function Intro() {
 
 
                 <div className="items">
-                    <SiGoogle size={18} color="#00FF00" />
+                    <SiGoogle size={18} color="white" />
                     <a href="https://developers.google.com/profile/u/zinwen" className="links">
-                        Google Developer Profile
+                        Dev Profile
                     </a>
                 </div>
 

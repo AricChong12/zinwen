@@ -42,6 +42,9 @@ canvas {
     z-index: 2;
 }
 
+
+
+
 /* Optional mobile adjustments */
 @media (max-width: 768px) {
     .intro-container {
