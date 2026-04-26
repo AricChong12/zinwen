@@ -12,7 +12,7 @@
     padding: 0 15px 0 15px;
 
     font-weight: bold;
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 .job {
@@ -63,7 +63,7 @@
 
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 
 }
 
@@ -81,7 +81,7 @@
     padding: 0 15px 0 15px;
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 
@@ -110,11 +110,12 @@
     color: #00FF00;
 }
 
+/*
 *, html, body{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', Arial;
     
 }
-
+*/
 
 .phone {
     text-align: justify;
@@ -130,7 +131,7 @@
     padding: 0 15px 0 15px;
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 .importants {
@@ -169,7 +170,7 @@
     font-weight: bold;
     /* test*/
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 .links:hover{
@@ -194,7 +195,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 
 }
 
@@ -213,7 +214,7 @@
     padding: 0 15px 0 15px;
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 .projects-container {
@@ -246,7 +247,7 @@
     margin-top: 15px;
     margin-bottom: 25px;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 
@@ -343,7 +344,7 @@
     word-wrap: break-word;
     font-weight: bold;
 
-    font-family: 'Dancing Script', cursive;
+    /*font-family: 'Dancing Script', Arial;*/
 }
 
 .project-title2 {
