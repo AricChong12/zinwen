@@ -21,7 +21,7 @@ function Nav() {
 
 
                 <NavLink class="navbar-brand" to="/">
-                        <img src="portfolio.svg" alt="Avatar Logo" style={{width:"40px"}} class="rounded-pill"/> 
+                        <img src="portfolio.svg" alt="Avatar Logo" style={{width:"40px", marginLeft:"10px"}} class="rounded-pill"/> 
                 </NavLink>
 
 
