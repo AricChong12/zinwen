@@ -12,6 +12,7 @@
     padding: 0 15px 0 15px;
 
     font-weight: bold;
+    font-family: 'Dancing Script', cursive;
 }
 
 .job {
@@ -62,6 +63,8 @@
 
     font-weight: bold;
 
+    font-family: 'Dancing Script', cursive;
+
 }
 
 .email {
@@ -77,8 +80,40 @@
 
     padding: 0 15px 0 15px;
     font-weight: bold;
+
+    font-family: 'Dancing Script', cursive;
 }
 
+
+.email-link:hover{
+    color: #00FF00;
+}
+
+.email-link:active{
+    color: #00FF00;
+}
+
+.email-link:focus{
+    color: #00FF00;
+}
+
+
+.phone-link:hover{
+    color: #00FF00;
+}
+
+.phone-link:active{
+    color: #00FF00;
+}
+
+.phone-link:focus{
+    color: #00FF00;
+}
+
+*, html, body{
+    font-family: 'Dancing Script', cursive;
+    
+}
 
 
 .phone {
@@ -94,11 +129,18 @@
 
     padding: 0 15px 0 15px;
     font-weight: bold;
+
+    font-family: 'Dancing Script', cursive;
 }
 
 .importants {
     /*color:#00FF00;*/
     color: white;
+    
+}
+
+.importants2{
+    font-style: italic;
 }
 
 .container {
@@ -126,6 +168,20 @@
 
     font-weight: bold;
     /* test*/
+
+    font-family: 'Dancing Script', cursive;
+}
+
+.links:hover{
+    color: #00FF00;
+}
+
+.links:active{
+    color: #00FF00;
+}
+
+.links:focus{
+    color: #00FF00;
 }
 
 
@@ -137,6 +193,8 @@
 
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+
+    font-family: 'Dancing Script', cursive;
 
 }
 
@@ -154,6 +212,8 @@
 
     padding: 0 15px 0 15px;
     font-weight: bold;
+
+    font-family: 'Dancing Script', cursive;
 }
 
 .projects-container {
@@ -185,6 +245,8 @@
     font-weight: bold;
     margin-top: 15px;
     margin-bottom: 25px;
+
+    font-family: 'Dancing Script', cursive;
 }
 
 
@@ -253,6 +315,19 @@
     font-weight: bold;
 }
 
+.code-link:hover {
+    color: #00FF00;
+}
+
+.code-link:active {
+    color: #00FF00;
+}
+
+.code-link:focus {
+    color: #00FF00;
+}
+
+
 
 
 .exp {
@@ -267,6 +342,8 @@
 
     word-wrap: break-word;
     font-weight: bold;
+
+    font-family: 'Dancing Script', cursive;
 }
 
 .project-title2 {

@@ -31,12 +31,12 @@ function Intro() {
 
 
             <p className="intro">
-                I am a <span className="importants">passionate and committed</span> individual who <span className="importants">designs and builds wired or wireless networks for work</span>.
-                I am also a tech enthusiast who <span className="importants">designs, codes and deploy softwares for hobby</span>. Not only that, I 
-                also <span className="importants">enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
-                Computer Science</span> just for fun. I do also <span className="importants">participating, planning, managing and running tech events to
-                hone my soft skills and extra technical skills</span>. Sometimes, I would <span className="importants">sign myself up for tech gathering
-                events or tech hackathons, even business</span>.
+                I am a <span className="importants2">passionate and committed</span> individual who <span className="importants2">designs and builds wired or wireless networks for work</span>.
+                I am also a tech enthusiast who <span className="importants2">designs, codes and deploy softwares for hobby</span>. Not only that, I 
+                also <span className="importants2">enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
+                Computer Science</span> just for fun. I do also <span className="importants2">participating, planning, managing and running tech events to
+                hone my soft skills and extra technical skills</span>. Sometimes, I would <span className="importants2">sign myself up for tech gathering
+                events or tech hackathons, even business</span>. 
                 <div className="academics importants">
                     Bachelor of Computer Science (Computer Networking) @ UTeM
                 </div>
@@ -102,8 +102,8 @@ function Intro() {
 
             <p className="hire">If you are hiring, reach out via LinkedIn or Email.</p>
 
-            <p className="email">Email: <a className="importants" href="mailto:zinwen12@gmail.com">zinwen12@gmail.com</a></p>
-            <p className="phone">Phone: <span className="importants">+6018-3952355</span></p>
+            <p className="email">Email: <a className="importants email-link" href="mailto:zinwen12@gmail.com">zinwen12@gmail.com</a></p>
+            <p className="phone">Phone: <a className="importants phone-link" href="tel:+60183952355">+60183952355</a></p>
 
 
 
