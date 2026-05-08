@@ -8,7 +8,7 @@
     /*max-width: 630px;*/
     margin: 0 auto 0 auto;
     width: 100%;
-
+    width: 100vw;
 
 
 
@@ -16,7 +16,7 @@
     background-color: black !important;
     z-index: 3;
 
-
+    
 }
 
 
@@ -33,9 +33,8 @@
     gap: 20px;
     /* spacing between links instead of margin-left */
 
-    transform: translateX(-40px);
+    transform: translateX(-50px);
 }
-
 
 
 
@@ -96,10 +95,72 @@
 }
 
 
+/* test */
+.navbar-nav .nav-link {
+    position: relative; /* Essential for positioning the underline */
+    text-decoration: none !important; /* Turn off the default underline */
+    padding-bottom: 5px;
+}
+
+/* Create the underline using ::after */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0; /* Start hidden */
+    height: 3px; /* Your desired thickness */
+    bottom: 0;
+    left: 0;
+    background-color: #00FF00; /* Your hacker green */
+    transition: width 0.3s ease-in-out; /* This creates the "moving" effect */
+}
+
+/* When you hover, the width grows to 100% */
+.navbar-nav .nav-link:hover::after {
+    width: 100%;
+}
+
+
+
+.navbar-brand {
+    display: inline-block;
+    border: 4px solid transparent;
+
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.navbar-brand:hover {
+    border-color: #00FF00;
+}
+
+/* When clicked/focused */
+.navbar-brand:focus,
+.navbar-brand:active {
+    border-color: #00FF00;
+}
+
+
+
+
+
+
+
 /* Applies when screen is 576px or smaller (phones) */
 @media (max-width: 576px) {
+
+    body {
+        padding-top: 70px; /* adjust to navbar height */
+    }
+    
     .navbar {
         margin: 0;
+        
+        position: fixed;
+        top: 0;
+        
+        z-index: 9999;
+
     }
 
     .nav-link {
@@ -112,4 +173,5 @@
         margin-left: -20px;
         margin-top: 10px;
     }
+    
 }

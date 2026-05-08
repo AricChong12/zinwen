@@ -20,8 +20,8 @@ function Nav() {
                 */}
 
 
-                <NavLink class="navbar-brand" to="/">
-                        <img src="portfolio.svg" alt="Avatar Logo" style={{width:"40px", marginLeft:"10px"}} class="rounded-pill"/> 
+                <NavLink className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>
+                        <img src="/portfolio.svg" alt="Avatar Logo" style={{width:"40px", marginLeft:"10px"}} class="rounded-pill"/> 
                 </NavLink>
 
 

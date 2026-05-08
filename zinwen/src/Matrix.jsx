@@ -145,10 +145,12 @@ function Matrix() {
         setup();
 
         const draw = () => {
+            //0.08
             ctx.fillStyle = "rgba(0,0,0,0.08)";
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-            ctx.fillStyle = "rgba(0, 255, 0, 0.5)";
+            //0.5
+            ctx.fillStyle = "rgba(0, 255, 0, 0.3)";
             ctx.font = `${fontSize}px monospace`;
 
             for (let i = 0; i < drops.length; i++) {

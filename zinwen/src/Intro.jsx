@@ -17,14 +17,14 @@ function Intro() {
             <img
                 src="/Me.png" // Direct link to your file
                 alt="zinwen"
-                style={{ width: '100px', height: '100px', objectFit: 'cover', border: '3px solid white'}}
+                style={{ width: '100px', height: '100px', objectFit: 'cover', border: '3px solid #00FF00', borderWidth: '5px' }}
                 className="rounded-pill personal_image"
                 id="about"
             />
 
 
             <h2 className="name importants">Zin Wen</h2>
-            <p className="job"><span className="importants">Network Engineer</span> based in<span className="importants"> Negeri Sembilan,
+            <p className="job"><span className="importants2">Network Engineer</span> based in<span className="importants2"> Negeri Sembilan,
                 Malaysia</span>
             </p>
 
@@ -32,11 +32,11 @@ function Intro() {
 
             <p className="intro">
                 I am a <span className="importants2">passionate and committed</span> individual who <span className="importants2">designs and builds wired or wireless networks for work</span>.
-                I am also a tech enthusiast who <span className="importants2">designs, codes and deploy softwares for hobby</span>. Not only that, I 
-                also <span className="importants2">enjoy exploring latest tech advancements and upskilling myself by taking courses in any sub-domains of
-                Computer Science</span> just for fun. I do also <span className="importants2">participating, planning, managing and running tech events to
-                hone my soft skills and extra technical skills</span>. Sometimes, I would <span className="importants2">sign myself up for tech gathering
-                events or tech hackathons, even business</span>. 
+                I am also a tech enthusiast who <span className="importants2">designs, codes and deploys software for hobby</span>. Not only that, I
+                also <span className="importants2">enjoy exploring latest tech advancements and upskilling myself by taking workshops or online courses in any sub-domains of
+                    Computer Science</span> just for fun. I do also <span className="importants2">participating, planning, managing, running and hosting tech events to
+                        hone my soft skills and extra technical skills</span>. Sometimes, I would <span className="importants2">sign up for tech gathering,
+                            hackathons or business events</span>.
                 <div className="academics importants">
                     Bachelor of Computer Science (Computer Networking) @ UTeM
                 </div>
@@ -46,8 +46,8 @@ function Intro() {
 
 
             <div className="container">
-                <p className="links2">Languages : English, Malay, Chinese, Japanese, German</p>
-                
+                <p className="links2">Languages: English, Malay, Chinese, Japanese, German</p>
+
 
 
             </div>
@@ -116,37 +116,50 @@ function Intro() {
 
 
                     <ul class="project-list">
+                        <p className="project-title3">1. Bookshop Management System</p>
+                        <img src="/BMS.png" alt="BMS-Project" className="project-imgs"></img>
+
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BMS</span>
-                                <span class="description"> — Bookshop Management System Console App with C++ and MySQL (Individual)</span>
+                                <span class="description"> - An Individual Console Application project with C++ and MySQL, The development process covers analysis, design and implementation phases in a structured approach</span>
                             </div>
                             <a href="https://github.com/AricChong12/Workshop-1" class="code-link">SOURCE</a>
                         </li>
 
+                        <br />
+
+                        <p className="project-title3">2. Hotel Management System</p>
+                        <img src="/HMS.png" alt="HMS-Project" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">HMS</span>
-                                <span class="description"> — Hotel Management System Desktop App with MVC architecture with Printing API in Java (Team)</span>
+                                <span class="description"> — A Team Desktop Application project that is built with Java and MySQL, it is built on the MVC archicture, demonstrated Printing API integration</span>
                             </div>
                             <a href="https://github.com/AricChong12/OOP-Project" class="code-link">SOURCE</a>
                         </li>
 
 
+                        <br />
+
+                        <p className="project-title3">3. Business Registration Website</p>
+                        <img src="/BRWGo.png" alt="BRWGo-Project" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">BRWGo</span>
-                                <span class="description"> — Full-Stack Business Registration Website with HTML, CSS, JavaScript and PHP (Individual)</span>
+                                <span class="description"> — An individual website project with a business solution for business registration automation and the website is code with HTML, CSS, JavaScript and PHP, the website is deployed on university cloud server</span>
                             </div>
                             <a href="https://github.com/AricChong12/WebAppProject" class="code-link">SOURCE</a>
                         </li>
 
+                        <br />
 
-
+                        <p className="project-title3">4. ZinWen Portfolio Website</p>
+                        <img src="/zinwen.png" alt="zinwen" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
-                                <span class="project-title2">React Porfolio (This)</span>
-                                <span class="description"> — My Portfolio Website, coded with React + Vite and applied Bootstrap CSS, suitable for web and mobile views (Individual)</span>
+                                <span class="project-title2">Portfolio</span>
+                                <span class="description"> — An individual portfolio website project with React + Vite, Bootstrap, CSS used to demonstrate my capabilities in coding realm and deployed on Netlify</span>
                             </div>
                             <a href="https://github.com/AricChong12/zinwen" class="code-link">SOURCE</a>
                         </li>
@@ -165,18 +178,24 @@ function Intro() {
 
 
                     <ul class="project-list">
+                        <p className="project-title3">1. DataComm Project</p>
+                        <img src="/datacomm.png" alt="datacomm" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">DataComm</span>
-                                <span class="description"> — A beginner networking project that introduces me to networking domain (Team)</span>
+                                <span class="description"> — A beginner Team Networking project that introduces students about the networking fundamentals, configurations, network services and some WAN protocols</span>
                             </div>
                             <a href="https://github.com/AricChong12/DataCommProject" class="code-link">SOURCE</a>
                         </li>
 
+                        <br />
+
+                        <p className="project-title3">2. LAN Project</p>
+                        <img src="/lan.png" alt="lan" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">LAN</span>
-                                <span class="description"> — A Local Area Network Project with networking configurations and servers setup through Debian (Team)</span>
+                                <span class="description"> — A Local Area Network Team Project with network design and IP configurations, network infrastructure configuartions includes VLAN and Inter-VLAN, STP, EtherChannel, Port Security and network services usch as DHCP, DNS, Apache Web Server, TFTP Server</span>
                             </div>
                             <a href="https://github.com/AricChong12/LAN-Project" class="code-link">SOURCE</a>
                         </li>
@@ -198,10 +217,12 @@ function Intro() {
 
 
                     <ul class="project-list">
+                        <p className="project-title3">1. Data Analysis with R</p>
+                        <img src="/data-analysis.png" alt="data-analysis" className="project-imgs"></img>
                         <li>
                             <div class="project-info">
                                 <span class="project-title2">Data Analysis</span>
-                                <span class="description"> — A mathematical project that need me and my team to analyze real-world data with R (Team)</span>
+                                <span class="description"> — A Team Mathematical project that requires me to analyze and plot real-world data with R programming language</span>
                             </div>
                             <a href="https://github.com/AricChong12/Statistics-and-Probability" class="code-link">SOURCE</a>
                         </li>
@@ -256,24 +277,28 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Technical Team</span>
-                                <span class="description"> — Developer Student Club, DSC UTeM</span>
+                                {/*<span class="description"> — Developer Student Club, DSC UTeM</span>*/}
                             </div>
 
 
 
                         </li>
+                        <p class="description2">Developer Student Club UTeM</p>
+                        <p class="description2">Nov 2025 - Present</p>
 
 
                         <li>
 
                             <div class="project-info">
                                 <span class="project-title2">Game Programmer</span>
-                                <span class="description"> — TMAC UTeM </span>
+                                {/*<span class="description"> — TMAC UTeM </span>*/}
                             </div>
 
 
 
                         </li>
+                        <p class="description2">TMAC UTeM</p>
+                        <p class="description2">Nov 2024 - Present</p>
 
 
 
@@ -283,12 +308,14 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Deputy General Affairs</span>
-                                <span class="description"> — Diabolo Club UTeM</span>
+                                {/*<span class="description"> — Diabolo Club UTeM</span>*/}
                             </div>
 
 
 
                         </li>
+                        <p class="description2">Diabolo Club UTeM</p>
+                        <p class="description2">Nov 2024 - Apr 2025</p>
 
 
 
@@ -296,12 +323,14 @@ function Intro() {
 
                             <div class="project-info">
                                 <span class="project-title2">Language Student</span>
-                                <span class="description"> — AToJ Japanese N5N4</span>
+                                {/*<span class="description"> — AToJ Japanese N5N4</span>*/}
                             </div>
 
 
 
                         </li>
+                        <p class="description2">AToJ Japanese N5N4</p>
+                        <p class="description2">Mar 2025 - Oct 2025</p>
 
 
 
@@ -334,8 +363,8 @@ function Intro() {
 
                                 </div>
 
-                                <br/>
-                                
+                                <br />
+
                                 <div class="format-each-sem">
                                     <h4 class="format">SEM 2</h4>
                                     <li class="subjects-title">Calculus and Numerical Methods</li>
@@ -346,8 +375,8 @@ function Intro() {
                                     <li class="subjects-title">Web Application Development</li>
 
                                 </div>
-                                
-                                <br/>
+
+                                <br />
 
                                 <div class="format-each-sem">
                                     <h4 class="format">SEM 3</h4>
@@ -361,7 +390,7 @@ function Intro() {
 
                                 </div>
 
-                                <br/>
+                                <br />
 
                                 <div class="format-each-sem">
                                     <h4 class="format">SEM 4</h4>
@@ -374,7 +403,7 @@ function Intro() {
                                     <li class="subjects-title">Fiber Optics</li>
 
                                 </div>
-                                
+
 
 
 
@@ -426,6 +455,74 @@ function Intro() {
 
                     </ul>
                 </div>
+
+
+                <footer className="footer">
+
+                
+
+                    <div className="footer-line"></div>
+
+                    <div className="resume-section">
+                        <h2 className="resume-title">My Resume</h2>
+
+                        <p className="resume-text">
+                            Download my latest resume for more details about my skills and experience.
+                        </p>
+
+                        <a
+                            href="https://drive.google.com/file/d/1Wwijt4U8rVDdqfbbRlZUa1YNO1eo6JR4/view?usp=drive_link"
+                            
+                            className="resume-btn"
+                        >
+                            Download Now
+                        </a>
+                    </div>
+
+
+                    <p className="footer-name">
+                        © 2026 Zin Wen
+                    </p>
+
+                    <p className="footer-text">
+                        Built with React + Vite + Bootstrap
+                    </p>
+
+                    <div className="footer-links">
+
+                        <a
+                            href="https://github.com/AricChong12"
+                            className="footer-link"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://www.linkedin.com/in/zin-w-38323b238/"
+                            className="footer-link"
+                        >
+                            LinkedIn
+                        </a>
+
+                        <a
+                            href="https://12aaronchong.wixsite.com/zinwen"
+                            className="footer-link"
+                        >
+                            Wix
+                        </a>
+
+
+
+
+
+
+                    </div>
+
+                    
+
+
+
+                </footer>
 
 
 
