@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 function Nav() {
     return (
         <nav className="navbar navbar-expand-sm bg-dark navbar-dark" id="home">
-            <div className="container-fluid px-0">
+            <div className="container-fluid">
 
                 {/*}
                 <a className="navbar-brand" href="#home">
@@ -47,6 +47,7 @@ function Nav() {
                         <li className="nav-item">
                             <HashLink smooth className="nav-link" to="/#hacks">Hacks</HashLink>
                         </li>
+                        
                     </ul>
                 </div>
             </div>

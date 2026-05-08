@@ -5,43 +5,68 @@
 */
 
 .navbar {
-    max-width: 630px;
+    /*max-width: 630px;*/
     margin: 0 auto 0 auto;
     width: 100%;
 
-    
+
+
 
 
     background-color: black !important;
     z-index: 3;
 
-    
+
 }
 
-.navbar-brand{
-    margin-left: 10px;
+
+
+.navbar-collapse {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    /* spacing between links instead of margin-left */
+
+    transform: translateX(-40px);
+}
+
+
+
+
+
+
+
+.navbar-brand {
+    /*margin-left: 10px;*/
     color: #00FF00 !important;
 }
 
 .navbar-nav .nav-link {
     color: white !important;
-    margin-left: 10px;
+    margin-left: 20px;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #00FF00 !important;
+    color: #00FF00 !important;
 }
 
 .dropdown-menu {
     background-color: black !important;
-    
+
 }
 
 .dropdown-menu .dropdown-item {
     color: white !important;
     background-color: black !important;
-    
+
 }
 
 .dropdown-menu .dropdown-item:hover {
@@ -52,7 +77,8 @@
 
 
 .navbar-toggler {
-    border-color: black !important; /* Optional: cyan border for the button */
+    border-color: black !important;
+    /* Optional: cyan border for the button */
     border-width: 3px !important;
 }
 
@@ -72,15 +98,18 @@
 
 /* Applies when screen is 576px or smaller (phones) */
 @media (max-width: 576px) {
-  .navbar {
-    margin : 0;
-  }
+    .navbar {
+        margin: 0;
+    }
 
-  .nav-link {
-    
-    margin-left: 15px;
-  }
+    .nav-link {
+
+        margin-left: 15px;
+    }
+
+    .navbar-nav {
+        transform: none;
+        margin-left: -20px;
+        margin-top: 10px;
+    }
 }
-
-
-

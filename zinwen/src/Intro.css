@@ -82,8 +82,16 @@
     font-weight: bold;
 
     /*font-family: 'Dancing Script', Arial;*/
+
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; /* makes underline thicker */
 }
 
+.email-link {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; /* makes underline thicker */
+}
 
 .email-link:hover{
     color: #00FF00;
@@ -110,12 +118,11 @@
     color: #00FF00;
 }
 
-/*
-*, html, body{
-    font-family: 'Dancing Script', Arial;
-    
+.phone-link {
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; /* makes underline thicker */
 }
-*/
 
 .phone {
     text-align: justify;
@@ -132,6 +139,8 @@
     font-weight: bold;
 
     /*font-family: 'Dancing Script', Arial;*/
+
+   
 }
 
 .importants {
@@ -171,6 +180,9 @@
     /* test*/
 
     /*font-family: 'Dancing Script', Arial;*/
+
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; /* makes underline thicker */
 }
 
 .links:hover{
@@ -314,6 +326,10 @@
 
     margin: 0 0 0 15px;
     font-weight: bold;
+
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 3px; /* makes underline thicker */
 }
 
 .code-link:hover {

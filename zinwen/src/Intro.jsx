@@ -91,7 +91,7 @@ function Intro() {
                 <div className="items">
                     <SiGoogle size={18} color="white" />
                     <a href="https://developers.google.com/profile/u/zinwen" className="links">
-                        Dev Profile
+                        Google Developer
                     </a>
                 </div>
 
