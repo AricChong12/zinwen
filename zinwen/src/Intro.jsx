@@ -395,7 +395,7 @@ function Intro() {
                                 <div class="format-each-sem">
                                     <h4 class="format">SEM 4</h4>
                                     <li class="subjects-title">Arts</li>
-                                    <li class="subjects-title">Aritificial Intelligence</li>
+                                    <li class="subjects-title">Artificial Intelligence</li>
                                     <li class="subjects-title">Software Engineering</li>
                                     <li class="subjects-title">Wide Area Network</li>
                                     <li class="subjects-title">Network Analysis and Design</li>
