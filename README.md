@@ -1,6 +1,10 @@
-Zin Wen Portfolio Website
+# Zin Wen Portfolio Website
 
-Design inspiration from Ahmed Khaleel's portfolio.
+
+Built with React + Vite, CSS and Bootstrap5
+
+
+## Design inspiration from Ahmed Khaleel's portfolio.
 
 
 https://ahmedkhaleel.com/
