@@ -1,7 +1,7 @@
 # Zin Wen Portfolio Website
 
 
-Built with React + Vite, CSS and Bootstrap5
+Built with React + Vite, CSS and Bootstrap
 
 
 ## Design inspiration from Ahmed Khaleel's portfolio.
