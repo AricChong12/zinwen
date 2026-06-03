@@ -16,9 +16,16 @@
     background-color: black !important;
     z-index: 3;
 
+
+    position: fixed;
+    top: 0;
+
     
 }
 
+body {
+    padding-top: 80px;
+}
 
 
 .navbar-collapse {
@@ -30,7 +37,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    gap: 20px;
+    /*gap: 20px;*/
     /* spacing between links instead of margin-left */
 
     transform: translateX(-50px);
@@ -175,3 +182,14 @@
     }
     
 }
+
+
+
+@media (max-width: 900px) {
+    
+    .navbar-nav {
+        transform: translateX(-30px);
+    }
+
+}
+
