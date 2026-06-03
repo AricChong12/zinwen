@@ -150,7 +150,7 @@ function Matrix() {
             ctx.fillRect(0, 0, canvas.width, canvas.height);
 
             //0.5
-            ctx.fillStyle = "rgba(0, 255, 0, 0.3)";
+            ctx.fillStyle = "rgba(0, 255, 0, 0.45)";
             ctx.font = `${fontSize}px monospace`;
 
             for (let i = 0; i < drops.length; i++) {
