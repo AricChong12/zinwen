@@ -298,7 +298,7 @@ function Intro() {
 
                         </li>
                         <p class="description2">TMAC UTeM</p>
-                        <p class="description2">Nov 2024 - Present</p>
+                        <p class="description2">Nov 2024 - Jun 2026</p>
 
 
 
@@ -430,7 +430,7 @@ function Intro() {
 
 
 
-                <h2 className="exp" id="hacks">Hackathons</h2>
+                <h2 className="exp" id="extras">Hackathons</h2>
 
                 <div className="container3">
 
@@ -439,7 +439,84 @@ function Intro() {
                         <li>
 
                             <div class="project-info">
-                                <span class="project-title2">Robomaster 2025 Team Champion</span>
+                                <span class="project-title2">Robomaster 2025 - Team Champion</span>
+
+                            </div>
+
+
+
+                        </li>
+
+
+
+
+
+
+
+                    </ul>
+                </div>
+
+
+
+
+
+                <h2 className="exp" id="volunteer">Volunteerships</h2>
+
+                <div className="container3">
+
+
+                    <ul class="project-list">
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">Rebirth 2024 UTeM - Diabolo Performer</span>
+
+                            </div>
+
+
+
+                        </li>
+
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">CTRL+ALT+PWN 2026 - Protocol Bureau</span>
+
+                            </div>
+
+
+
+                        </li>
+
+
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">Language and Culture Carnival 2026 UTeM - German Booth Volunteer</span>
+
+                            </div>
+
+
+
+                        </li>
+
+
+
+
+
+                    </ul>
+                </div>
+
+                <h2 className="exp" id="course">Courses</h2>
+
+                <div className="container3">
+
+
+                    <ul class="project-list">
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">Bug Bounty Hunting - 0day Academy</span>
 
                             </div>
 

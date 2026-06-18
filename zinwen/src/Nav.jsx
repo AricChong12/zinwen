@@ -45,7 +45,7 @@ function Nav() {
                             <HashLink smooth className="nav-link" to="/#academics">Academics</HashLink>
                         </li>
                         <li className="nav-item">
-                            <HashLink smooth className="nav-link" to="/#hacks">Hacks</HashLink>
+                            <HashLink smooth className="nav-link" to="/#extras">Extras</HashLink>
                         </li>
                         
                     </ul>
