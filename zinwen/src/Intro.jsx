@@ -539,23 +539,7 @@ function Intro() {
                 
 
                     <div className="footer-line"></div>
-
-                    <div className="resume-section">
-                        <h2 className="resume-title">My Resume</h2>
-
-                        <p className="resume-text">
-                            Download my latest resume for more details about my skills and experience.
-                        </p>
-
-                        <a
-                            href="https://drive.google.com/file/d/1Wwijt4U8rVDdqfbbRlZUa1YNO1eo6JR4/view?usp=drive_link"
-                            
-                            className="resume-btn"
-                        >
-                            Download Now
-                        </a>
-                    </div>
-
+                    
 
                     <p className="footer-name">
                         © 2026 Zin Wen
