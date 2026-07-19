@@ -249,7 +249,7 @@ function Intro() {
                     <ul class="project-list">
                         <li>
                             <div class="project-info">
-                                <span class="project-title2">No Professional Experience</span>
+                                <span class="project-title2">No Professional Working Experience</span>
 
                             </div>
 
@@ -267,12 +267,27 @@ function Intro() {
 
 
 
-                <h2 className="exp">Life Experience</h2>
+                <h2 className="exp">Club Experience</h2>
 
                 <div className="container3">
 
 
                     <ul class="project-list">
+
+                        <li>
+
+                            <div class="project-info">
+                                <span class="project-title2">Protocol Exco</span>
+                                {/*<span class="description"> — Developer Student Club, DSC UTeM</span>*/}
+                            </div>
+
+
+
+                        </li>
+                        <p class="description2">CyberOps UTeM</p>
+                        <p class="description2">Jul 2026 - Present</p>
+
+
                         <li>
 
                             <div class="project-info">
