@@ -200,6 +200,17 @@ function Intro() {
                             <a href="https://github.com/AricChong12/LAN-Project" class="code-link">SOURCE</a>
                         </li>
 
+                        <br />
+                        <p className="project-title3">2. WAN Project</p>
+                        <img src="/wan.png" alt="lan" className="project-imgs"></img>
+                        <li>
+                            <div class="project-info">
+                                <span class="project-title2">WAN</span>
+                                <span class="description"> — A Wide Area Network Team Project with network design, IP configurations and ACLs, DHCPv4, eBGP, IPsec VPN, PAT, PPP Protocols, SSH and Router Security</span>
+                            </div>
+                            <a href="https://github.com/AricChong12/WAN-Project" class="code-link">SOURCE</a>
+                        </li>
+
 
 
                     </ul>
@@ -299,7 +310,7 @@ function Intro() {
 
                         </li>
                         <p class="description2">Developer Student Club UTeM</p>
-                        <p class="description2">Nov 2025 - Present</p>
+                        <p class="description2">Nov 2025 - Aug 2026</p>
 
 
                         <li>
